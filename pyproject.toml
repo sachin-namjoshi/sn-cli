@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "servicenow-cli"
+version = "0.1.0"
+description = "A command-line tool for ServiceNow — query tables, manage widgets, and more (stdlib-only, zero deps)."
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+snow = "snow_cli.cli:main"
+
+[tool.setuptools]
+packages = ["snow_cli", "snow_cli.commands"]
