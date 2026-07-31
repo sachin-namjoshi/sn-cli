@@ -36,7 +36,7 @@ from .errors import AuthError, ConfigError
 from .redact import register_secret
 
 # Keychain service/namespace. The account key is the SN instance host, so tokens
-# for godaddydev and a prod instance never collide in one store.
+# for different instances never collide in one store.
 SERVICE = "snow-cli"
 
 
