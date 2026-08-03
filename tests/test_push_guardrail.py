@@ -4,8 +4,8 @@ import types
 import unittest
 from unittest import mock
 
-from snow_cli.commands import widget
-from snow_cli.errors import ConfirmationRequired
+from sn_cli.commands import widget
+from sn_cli.errors import ConfirmationRequired
 
 
 class ConfirmGuardrailTest(unittest.TestCase):

@@ -10,7 +10,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-snow = "snow_cli.cli:main"
+snow = "sn_cli.cli:main"
 
 [tool.setuptools]
-packages = ["snow_cli", "snow_cli.commands"]
+packages = ["sn_cli", "sn_cli.commands"]

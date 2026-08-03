@@ -2,7 +2,7 @@
 
 import unittest
 
-from snow_cli.commands.updateset import build_name
+from sn_cli.commands.updateset import build_name
 
 
 class NamingTest(unittest.TestCase):

@@ -3,8 +3,8 @@
 import time
 import unittest
 
-from snow_cli import oauth
-from snow_cli.credentials import SKEW_SECONDS, CredentialProvider
+from sn_cli import oauth
+from sn_cli.credentials import SKEW_SECONDS, CredentialProvider
 
 
 class FakeBackend:

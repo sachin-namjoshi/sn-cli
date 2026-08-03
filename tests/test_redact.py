@@ -2,7 +2,7 @@
 
 import unittest
 
-from snow_cli import redact
+from sn_cli import redact
 
 
 class RedactTest(unittest.TestCase):

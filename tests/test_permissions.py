@@ -7,8 +7,8 @@ restricted, unannotated command -> DEV (blocked off dev).
 
 import unittest
 
-from snow_cli import permissions as perm
-from snow_cli.errors import PermissionDeniedError
+from sn_cli import permissions as perm
+from sn_cli.errors import PermissionDeniedError
 
 
 def _cfg(*dev_instances):

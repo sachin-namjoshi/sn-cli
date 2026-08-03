@@ -7,9 +7,9 @@ missing keychain or a failing store op is a hard error, never a downgrade."""
 import json
 import unittest
 
-from snow_cli import storage
-from snow_cli.errors import AuthError, ConfigError
-from snow_cli.storage import KeychainBackend, make_backend
+from sn_cli import storage
+from sn_cli.errors import AuthError, ConfigError
+from sn_cli.storage import KeychainBackend, make_backend
 
 
 class FakeStore:
