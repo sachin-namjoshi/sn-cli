@@ -56,7 +56,7 @@ class Context:
 def build_parser():
     parser = argparse.ArgumentParser(
         prog="snow",
-        description="ServiceNow CLI — query tables, manage widgets, and more (stdlib-only).",
+        description="sn-cli — query tables, manage widgets, and more (stdlib-only).",
     )
     parser.add_argument("--version", action="version", version=f"snow {__version__}")
     parser.add_argument("--config", help="Path to config.json (default ~/.snow/config.json)")

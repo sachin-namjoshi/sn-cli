@@ -1,3 +1,3 @@
-"""snow_cli — first-party ServiceNow Service Portal tooling CLI (stdlib-only)."""
+"""sn-cli — a command-line tool for ServiceNow (stdlib-only)."""
 
 __version__ = "0.1.0"
