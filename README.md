@@ -83,6 +83,7 @@ AD, SAML, or local auth) — the CLI just opens the browser and waits.
 | `snow auth refresh` | Refresh your session manually (usually automatic). |
 | `snow auth status` | Show your identity and token expiry. |
 | `snow query <table> [-q <query>] [-f <fields>] [-l <limit>] [--json]` | Read records from any table. |
+| `snow update <table> <sys_id\|> [-q <query>] --set field=value ... [--yes] [--json]` | Update fields on a record. |
 | `snow dict <table> [--own] [--json]` | List a table's fields, types, and references (`--own` = this table only, not inherited). |
 | `snow widget create --id <id> --name "<Name>"` | Create a new widget (scaffolds the five source files). |
 | `snow widget pull <name\|id\|sys_id>` | Download a widget's source into a local folder. |

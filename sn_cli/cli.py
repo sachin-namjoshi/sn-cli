@@ -19,6 +19,7 @@ from .storage import make_backend
 from .commands import auth as auth_cmd
 from .commands import dict as dict_cmd
 from .commands import query as query_cmd
+from .commands import update as update_cmd
 from .commands import updateset as updateset_cmd
 from .commands import widget as widget_cmd
 
@@ -68,6 +69,7 @@ def build_parser():
     widget_cmd.register(sub)
     updateset_cmd.register(sub)
     query_cmd.register(sub)
+    update_cmd.register(sub)
     dict_cmd.register(sub)
 
     return parser
