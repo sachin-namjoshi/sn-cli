@@ -1,5 +1,9 @@
 # `snow` — a command-line tool for ServiceNow
 
+> **Not the official ServiceNow CLI.**
+> ServiceNow ships its own CLI out-of-the-box ([ServiceNow CLI docs](https://www.servicenow.com/docs/r/application-development/servicenow-cli/servicenow-cli.html)) for application development workflows (syncing files, deploying apps, etc.).
+> `sn-cli` (`snow`) is an independent, lightweight alternative focused on querying tables, updating records, and managing Service Portal widgets from your terminal — with browser-based OAuth login and zero dependencies.
+
 `snow` is a command-line tool for working with ServiceNow from your terminal.
 You can query tables, inspect the data dictionary, and build Service Portal
 widgets — including rendering a widget server-side to see its real output and
