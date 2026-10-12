@@ -4,13 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sn-cli"
-version = "0.1.0"
-description = "sn-cli — a command-line tool for ServiceNow. Query tables, manage widgets, and more (stdlib-only, zero deps)."
+version = "0.2.0"
+description = "sn-cli — a command-line tool and MCP server for ServiceNow. Query tables, manage scripts, and more (stdlib-only CLI, mcp optional)."
 requires-python = ">=3.12"
 dependencies = []
 
+[project.optional-dependencies]
+mcp = ["mcp>=1.0"]
+
 [project.scripts]
-snow = "sn_cli.cli:main"
+snow     = "sn_cli.cli:main"
+snow-mcp = "sn_cli.mcp_server:main"
 
 [tool.setuptools]
 packages = ["sn_cli", "sn_cli.commands"]
