@@ -1,4 +1,4 @@
-# `snow` — a command-line tool for ServiceNow
+# `sn-cli` — a command-line tool for ServiceNow
 
 > **Not the official ServiceNow CLI.**
 > ServiceNow ships its own CLI out-of-the-box ([ServiceNow CLI docs](https://www.servicenow.com/docs/r/application-development/servicenow-cli/servicenow-cli.html)) for application development workflows (syncing files, deploying apps, etc.).
